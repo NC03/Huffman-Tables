@@ -16,7 +16,6 @@ pack:
 	jar -cfe HuffmanTable.jar HuffmanTable *.class
 
 commit:
-	rm HuffmanTable.jar
 	git add -A
 	git commit -m "$(msg)"
 	git push
