@@ -22,3 +22,8 @@ commit:
 
 documentation:
 	javadoc source/*.java -d docs/
+
+gui: build guijar clean
+
+guijar:
+	jar -cfe GUI.jar TextFileCompressor *.class
